@@ -5,8 +5,6 @@ public class Main {
         Zombie zombie = new Zombie("Bob");
         zombie.attack();
 
-
-
     }
 
 }

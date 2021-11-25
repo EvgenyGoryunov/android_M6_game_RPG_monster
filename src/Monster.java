@@ -15,7 +15,9 @@ public class Monster {
     }
 
     public void attack(){ //вывод инфу о силе разрушения монстра
-//
+        System.out.println("Monster " + name + " was created");
+        System.out.println("Monster " + name + " attacked with damage " + damage);
+        System.out.print(name + " growled");
     }
 
 }
