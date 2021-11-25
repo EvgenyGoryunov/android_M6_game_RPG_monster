@@ -8,11 +8,16 @@ public class Monster {
     public Monster(String name, int damage) {
         this.name = name;
         this.damage = damage;
+        System.out.println("Monster " + name + " was created");
     }
 
     public void growl() { //вызов рева монстра
+        System.out.println(" " + name + " growled");
 //
     }
+
+
+
 
     public void attack(){ //вывод инфу о силе разрушения монстра
         System.out.println("Monster " + name + " was created");
