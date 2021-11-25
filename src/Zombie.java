@@ -24,6 +24,7 @@ public class Zombie extends Monster {
         }
     }
 
+    @Override
     public void attack(){
         super.attack();
         growl();
