@@ -1,11 +1,11 @@
-public class Monster {
+public class m_6_2_Monster {
 
     String name; // имя монстра
     int health;  // здоровье
     int damage;  // сила разрушения
 
 
-    public Monster(String name, int damage) {
+    public m_6_2_Monster(String name, int damage) {
         this.name = name;
         this.damage = damage;
     }

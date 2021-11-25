@@ -1,8 +1,8 @@
-public class Main {
+public class m_6_2_Main {
 
     public static void main(String[] args) {
 
-        Zombie zombie = new Zombie("Bob");
+        m_6_2_Zombie zombie = new m_6_2_Zombie("Bob");
         zombie.attack();
 
     }
